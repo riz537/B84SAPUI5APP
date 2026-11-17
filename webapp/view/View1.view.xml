@@ -1,0 +1,99 @@
+<mvc:View controllerName="com.demo.b84sapui5app.controller.View1"
+   xmlns:mvc="sap.ui.core.mvc"
+   xmlns="sap.m"
+   xmlns:core="sap.ui.core"
+   xmlns:l="sap.ui.layout"
+   xmlns:f="sap.ui.layout.form">
+   <Page title="I am View1">
+      <content>
+         <f:SimpleForm title="Employee Details" editable="true" layout="ResponsiveGridLayout" labelSpanL="3" labelSpanM="3" emptySpanL="4" columnsL="3" >
+            <f:content>
+               <Label text="Employee ID" required="true"></Label>
+               <Input id="oIpEmpId" liveChange="onSubmit"></Input>
+               <Label text="Name" required="true"></Label>
+               <Input id="oIpName" liveChange="onSubmit"></Input>
+               <Label text="Designation"></Label>
+               <Input ></Input>
+               <Label text="Email ID"></Label>
+               <Input ></Input>
+               <Label text="Phone No"></Label>
+               <Input ></Input>
+               <Label text="Salary"></Label>
+               <Input ></Input>
+            </f:content>
+         </f:SimpleForm>
+
+      </content>
+      <footer>
+         <Bar >
+            <contentRight>
+              <Button text="Submit" type="Emphasized" press="onSubmit"></Button>
+            </contentRight>
+
+         </Bar>
+      </footer>
+   </Page>
+</mvc:View>
+
+<!-- <Label text="Employee ID" class="sapUiTinyMarginTop"></Label>
+              <Input ></Input>
+              <Label text="Name" class="sapUiTinyMarginTop"></Label>
+              <Input ></Input>
+              <Label text="Designation" class="sapUiTinyMarginTop"></Label>
+              <Input ></Input>
+              <Label text="Email ID" class="sapUiTinyMarginTop"></Label>
+              <Input ></Input>
+              <Label text="Phone No" class="sapUiTinyMarginTop"></Label>
+              <Input ></Input>
+              <Label text="Salary" class="sapUiTinyMarginTop"></Label>
+              <Input ></Input> -->
+
+<!-- <FlexBox justifyContent="Center" alignItems="Center" height="100%">
+            <VBox >
+               <Label text="Username"></Label>
+               <Input ></Input>
+           
+               <Label text="Password "></Label>
+               <Input ></Input>
+               
+            </VBox>
+         </FlexBox> -->
+
+
+
+<!-- <HBox class="sapUiMediumMargin">
+            <VBox >
+               <Label text="Employee Id"></Label>
+               <Input ></Input>
+            </VBox>
+            <VBox class="sapUiSmallMarginBegin">
+               <Label text="Employee Name"></Label>
+               <Input ></Input>
+            </VBox>
+            <VBox class="sapUiSmallMarginBegin">
+               <Label text="Employee Designation"></Label>
+               <Input ></Input>
+            </VBox>
+         </HBox> -->
+
+
+
+<!-- <f:SimpleForm title="Employee Details" editable="true" layout="ResponsiveGridLayout" labelSpanL="3" labelSpanM="3" emptySpanL="0" columnsL="3" columnsM="3">
+            <f:content>
+               <core:Title text="Basic Details"></core:Title>
+               <Label text="Employee ID"></Label>
+               <Input ></Input>
+               <Label text="Name"></Label>
+               <Input ></Input>
+               <Label text="Designation"></Label>
+               <Input ></Input>
+               <core:Title text="Contact Details"></core:Title>
+               <Label text="Email ID"></Label>
+               <Input ></Input>
+               <Label text="Phone No"></Label>
+               <Input ></Input>
+               <core:Title text="Salary Details"></core:Title>
+               <Label text="Salary"></Label>
+               <Input ></Input>
+            </f:content>
+         </f:SimpleForm> -->
