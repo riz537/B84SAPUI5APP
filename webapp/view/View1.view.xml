@@ -20,6 +20,9 @@
                <Input ></Input>
                <Label text="Salary"></Label>
                <Input ></Input>
+               <Label text="Status"></Label>
+               <Input ></Input>
+
             </f:content>
          </f:SimpleForm>
 
